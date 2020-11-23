@@ -11,12 +11,12 @@ The goal is that you complete them all without any help other than the documenta
 
 The exercises are the following:
 
-FizzBuzz
-Nightclub bouncer 
-The Fibonacci Pairs 
-Leap years
-The letter of the DNI 
-And the special guest... Mars Rover Kata 
+-FizzBuzz
+-Nightclub bouncer 
+-The Fibonacci Pairs 
+-Leap years
+-The letter of the DNI 
+-And the special guest... Mars Rover Kata 
 
 The deadline for submitting these exercises will be one week before the start of the course. You must send the link to your repository to the email: ta-web-mad@ironhack.com :exclamation: **Don't forget FORK the repo**
 
