@@ -1,3 +1,4 @@
+![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
 # Prebootcamp Web Development - Ironhack
 
 Welcome to the preliminary phase of the course! 
@@ -17,4 +18,6 @@ Leap years
 The letter of the DNI 
 And the special guest... Mars Rover Kata 
 
-The deadline for submitting these exercises will be one week before the start of the course. You must send the link to your repository to the email: ta-web-mad@ironhack.com
+The deadline for submitting these exercises will be one week before the start of the course. You must send the link to your repository to the email: ta-web-mad@ironhack.com :exclamation: **Don't forget FORK the repo**
+
+### Happy coding!
