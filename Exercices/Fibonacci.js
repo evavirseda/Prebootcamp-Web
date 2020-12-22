@@ -6,10 +6,31 @@ Your mission is simple:
 
 */
 
-function fibonacci () {
+function fibonacci(x) {
+  let a = 0;
+  let b = 1;
 
-};
+  for (let i = 0; i < x; i++) {
+    if (i === 0) {
+      console.log(0);
+    } else if (i === 1) {
+      console.log(1);
+    }else {
+      let total = a + b;
+      console.log(total);
+      a = b;
+      b = total;
+   }
+ }
+}
+fibonacci(100);
 
-function sumEvenFibonacci (listOfFibonacciNumbers) {
 
-};
+function sumEvenFibonacci (listOfFibonacciNumbers){
+  var fibo = 218922995834555169026;
+  var result = 0:
+ for (var i = 1; i<=fibo; i++){
+   result +=i;
+ }
+  console.log(result);
+}

@@ -19,7 +19,23 @@ Once the letter has been calculated, it must be compared with the letter indicat
    Otherwise, a message is shown indicating that the number and letter of the DNI are correct. 
 
 */
+var letters = [ 'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H','L', 'C', 'K', 'E'];
 
-function checkerDNI (dniNumber){
+var dniNumber= prompt("enter your DNI number (without letter)");
 
+var dniLetter = prompt ("enter your DNI letter (capital letters)");
+
+function checkerDNI(dniNumber) {
+ if (dniNumber < 0 || dniNumber >99999999){
+  console.log("the number provided is not valid");
+} 
+
+var lastletter = letters[dniNumber % 23];
+   
+ if(lastletter != dniLetter){
+    console.log("The number or letter provided is NOT correct");
+ } else{
+     console.log("The number or letter provided are correct");
+		
+	}
 };
